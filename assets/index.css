@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body {
+    width: 1020px;
+    height: 1506px;
+    margin: auto;
+}
+
+header {
+}
+
+nav {
+    background-color: #323232;
+
+    text-align: center;
+    width: 100%;
+}
+
+
+.nav-item-div {
+    display: inline-block;
+    height: 55px;
+    box-sizing: border-box;
+    padding: 18px 0 0 0;
+    position: relative;
+}
+
+.first-item {
+    right: 54px;
+}
+
+.second-item{
+    right: 32px;
+}
+
+.third-item{
+    left: 36px;
+}
+
+.fourth-item{
+    left: 59px;
+}
+
+.item-right {
+    /*margin-right: 5px;*/
+}
+
+.nav-menu-logo {
+    display: inline-block;
+    height: 55px;
+    width: 64px;
+    background-image: url('../img/nav-menu-logo.png');
+    vertical-align: bottom;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+
+.nav-menu-item, .nav-menu-item:visited {
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 7.21379pt;
+    text-transform: uppercase;
+
+}
+
+.line, .under-logo {
+    display: inline-block;
+    /*border: 1px solid black;*/
+}
+
+.left-line {
+
+    right: 20px;
+
+}
+
+.right-line {
+    left: 20px;
+}
+
+
+
+.line {
+    border-top: 1.5px solid grey;
+    opacity: 0.2;
+    width: 410px;
+    bottom: 14px;
+    height: 0px;
+    position: relative;
+}
+.under-logo {
+
+    height: 0;
+    position: relative;
+
+    /*top: -1px;*/
+    border-top: 26px solid rgb(50, 50, 50);
+    border-right: 45px solid white;
+    border-left: 45px solid white;
+    border-bottom: 0;
+    box-sizing: content-box;
+
+
+}
+
+.hexagons-row {
+    position: relative;
+}
+
+.hexagon-container {
+    display: inline-block;
+    text-align: left;
+    /*border: 1px solid black;*/
+    /*height: 209px;*/
+
+    /*margin: 0 8px 0 0;*/
+    /*padding: 5px 15px;*/
+    /*box-sizing: border-box;*/
+
+}
+
+.hexagons {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:59px;
+}
+
+.full {
+    width: 180px;
+    height: 211px;
+    margin: 0 8px;
+}
+
+.half {
+    width: 99px;
+}
+
+.under-logo-container {
+    text-align: center;
+
+}
+
+
+
+.nav-menu-item:hover {
+    color: rgba(46, 179, 152, 255);
+    font-size: 7.21379pt;
+}
+
+
+section.author {
+    display: block;
+    height: 341px;
+    background-color: rgba(46, 179, 152);
+    position: relative;
+    top: 110px;
+}
+
+
+.row-1 {
+    text-align: center;
+    left: 0px;
+    top: 1px;
+}
+
+.row-2{
+    top:-47px;
+}
+
+.row-3 {
+    top: -93px;
+}
+
+
+.img-1{
+    background-image: url("../img/a.png");
+}
+
+.img-2{
+    background-image: url("../img/b.png");
+}
+
+.img-3{
+    background-image: url("../img/3.png");
+}
+
+.img-4{
+    background-image: url("../img/4.png");
+}
+
+.img-5{
+    background-image: url("../img/5.png");
+}
+
+.img-6{
+    background-image: url("../img/6.png");
+}
+
+.img-7{
+    background-image: url("../img/7.png");
+}
+
+.img-8{
+    background-image: url("../img/8.png");
+}
+
+.img-9{
+    background-image: url("../img/9.png");
+}
+
+.img-10{
+    background-image: url("../img/10.png");
+}
+
+.img-11{
+    background-image: url("../img/11.png");
+}
+
+.img-12{
+    background-image: url("../img/12.png");
+}
+
+.img-13{
+    background-image: url("../img/13.png");
+}
+
+
+.hex-1 {
+    /*background-image: url("../img/a.png");*/
+    /*left: 119px;*/
+    /*top: 59px;*/
+}
+
+.hex-2 {
+    /*background-image: url("../img/b.png");*/
+    /*left: 133px;*/
+    /*top: 59px;*/
+}
+
+.hex-3 {
+    /*background-image: url("../img/b.png");*/
+    /*left: 147px;*/
+    /*top: 59px;*/
+}
+
+.hex-4 {
+    /*background-image: url("../img/b.png");*/
+    /*left: 161px;*/
+    /*top: 59px;*/
+}
+
+.hex-5 {
+    /*left: 161px;*/
+    /*top: 59px;*/
+}
+
+
+
+
+.my-hex-container {
+
+    width: 180px;
+    height:207px;
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    overflow: hidden;
+    transform: rotate(60deg);
+
+    border: 0px solid black;
+    border-image-width: 0;
+    visibility: hidden;
+}
+
+.top-level {
+    width: 100%;
+    height: 100%;
+    /*z-index: -10;*/
+    overflow: hidden;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+    transform: rotate(-120deg);
+    display: block;
+    visibility: hidden;
+}
+
+.gex-image {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    /*left: -100px;*/
+    /*background-color: grey;*/
+    /*border: 1px solid black;*/
+    /*z-index: 1;*/
+    transform: rotate(60deg);
+    /*background-image: url(http://placekitten.com/240/240);*/
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
